@@ -41,3 +41,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### What does `func GOMAXPROCS(n int) int` change? 
  > It changes the maximum number of CPUs that can be executing simultaneously
+ 
+ 
+ ### Task 4
+ > The variable is somewhere in the range of +-1000000. There is no perfectly fair scheduling of the two threads, which results in 'i' not being zero (which one might assume it would be).
